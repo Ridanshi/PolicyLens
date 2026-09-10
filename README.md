@@ -1,8 +1,5 @@
 # PolicyLens — AI Video Intelligence for Warehouse Handling
 
-Godrej Enterprises Group × VIT graVITas'26. Submission deadline: **10 Sept 2026**.
-Submission form: https://forms.cloud.microsoft/r/NLHbJUJ7ru
-
 ## Status: both code tracks built, tested, and validated against all 7 real Godrej pilot videos
 
 Not just written — actually run end-to-end on real footage, with real bugs found and fixed
@@ -23,8 +20,6 @@ honest, not oversold: this is a cross-domain transfer of the
 sign-recognition→policy→behavior-monitoring pattern from automotive ADAS
 into warehouse packaging — genuinely unclaimed there, not an unprecedented
 algorithm.
-
-## Two-person split
 
 **Vision pipeline** (`vision-pipeline/`) — detection, tracking, pictogram/OCR
 policy extraction, behavior heuristics, physics risk estimate. Outputs
@@ -97,10 +92,8 @@ uvicorn app:app --port 8000
 - [ ] Slide 5: Impact & user validation — document actual feedback from people you show it to (supervisor/operator/logistics/quality/safety roles suggested), what you changed based on it. **This needs real humans, can't be done from here.**
 - [ ] Slide 6 (optional): Future roadmap / scalability / business applications — use the brief's own "warehouse → factory → distribution centre → retail → field service" framing
 
-**3. Team size**: 3-5 (ran at 2 — scope was managed accordingly)
+**3. Team size**: 3-5 (running at 3)
 
 **4. Input videos**: already downloaded to `sample_data/godrej_pilot/`, source: https://drive.google.com/drive/folders/1MG90LJowfSZ2qz5woDyarHdzskbCRLzP
-
-**5. Submit by 10 Sept 2026**: https://forms.cloud.microsoft/r/NLHbJUJ7ru
 
 **Don't forget — Responsible AI section of the brief** (most teams will skip this, mentioning it explicitly is a differentiator): no automated punitive action, `requires_human_review` flag shown clearly not auto-acted-on (dashboard already does this), explain false-positive handling, state data retention/privacy stance. Put a line about this on slide 2 or 5.
