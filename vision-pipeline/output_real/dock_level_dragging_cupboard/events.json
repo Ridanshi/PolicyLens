@@ -1,0 +1,1676 @@
+[
+  {
+    "event_id": "68550043-93a6-4794-a555-ab789e0375b1",
+    "timestamp": "2026-09-06T20:13:10.902720+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1008",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1008_over_stacked_25.webm",
+      "frame_number": 25
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "2b795d18-145e-4936-ba3f-abd219312f6e",
+    "timestamp": "2026-09-06T20:13:11.869080+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1008",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.122,
+      "impact_velocity_mps": 1.547,
+      "impact_energy_j": 5.984,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1008_thrown_29.webm",
+      "frame_number": 29
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "d31a8771-60a7-4e41-b241-b89470014c93",
+    "timestamp": "2026-09-06T20:13:14.074306+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1000",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1000_dragged_38.webm",
+      "frame_number": 38
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "72feef49-222d-4b1a-87fe-f8a74c5d7aa6",
+    "timestamp": "2026-09-06T20:13:14.319612+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1008",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.104,
+      "impact_velocity_mps": 1.428,
+      "impact_energy_j": 5.101,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1008_dropped_39.webm",
+      "frame_number": 39
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "e1e12418-bb12-46ab-a0db-0cba0f41a51e",
+    "timestamp": "2026-09-06T20:14:06.515822+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1008",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1008_wrong_orientation_73.webm",
+      "frame_number": 73
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "605f3f22-4c72-414a-adc5-eff66f87aaf6",
+    "timestamp": "2026-09-06T20:14:21.534063+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1018",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.092,
+      "impact_velocity_mps": 1.344,
+      "impact_energy_j": 4.513,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1018_dropped_114.webm",
+      "frame_number": 114
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "62c3c43f-b5c4-4c63-bf91-131852e413cf",
+    "timestamp": "2026-09-06T20:14:25.739025+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1023",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1023_dragged_136.webm",
+      "frame_number": 136
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "de1c346b-6a46-48f5-8531-d2c912713e30",
+    "timestamp": "2026-09-06T20:14:35.026273+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1025",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1025_thrown_147.webm",
+      "frame_number": 147
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "d84e01a2-7d58-4645-88f6-14f730e541ac",
+    "timestamp": "2026-09-06T20:14:48.005812+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1026",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.124,
+      "impact_velocity_mps": 1.56,
+      "impact_energy_j": 6.082,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1026_dropped_175.webm",
+      "frame_number": 175
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "aad12fbf-d5d1-4aa2-b700-7c19b601e8fe",
+    "timestamp": "2026-09-06T20:14:59.152666+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1025",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1025_dragged_195.webm",
+      "frame_number": 195
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "158f7a7b-8bb4-414a-bf20-f571fa70415b",
+    "timestamp": "2026-09-06T20:15:08.911265+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1029",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1029_dragged_207.webm",
+      "frame_number": 207
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "4a31f704-1f76-47f3-bf08-dfabf98af620",
+    "timestamp": "2026-09-06T20:15:20.118959+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1023",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1023_dragged_226.webm",
+      "frame_number": 226
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "cb5fe8e9-ab6e-4c4f-b17d-d76f862b19e7",
+    "timestamp": "2026-09-06T20:15:31.186942+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1045",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1045_over_stacked_245.webm",
+      "frame_number": 245
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "1ef350f2-be6c-42ba-9c51-b1ab046ecec2",
+    "timestamp": "2026-09-06T20:15:33.447714+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1045",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.062,
+      "impact_velocity_mps": 1.103,
+      "impact_energy_j": 3.041,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1045_dropped_256.webm",
+      "frame_number": 256
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "511d5dca-3208-427a-820f-2ee13469a2f9",
+    "timestamp": "2026-09-06T20:15:53.154020+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1023",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.226,
+      "impact_velocity_mps": 2.106,
+      "impact_energy_j": 11.085,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1023_dropped_278.webm",
+      "frame_number": 278
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "310071fb-ea91-4c0d-843a-df9e9301c071",
+    "timestamp": "2026-09-06T20:15:53.154093+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1025",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.224,
+      "impact_velocity_mps": 2.096,
+      "impact_energy_j": 10.987,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1025_dropped_278.webm",
+      "frame_number": 278
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "4e6aaad4-8a19-4b8f-ac70-7f51fce8c8fc",
+    "timestamp": "2026-09-06T20:15:53.465475+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1029",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.23,
+      "impact_velocity_mps": 2.124,
+      "impact_energy_j": 11.282,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1029_dropped_280.webm",
+      "frame_number": 280
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "3756a70a-8765-41b6-b34f-0c7b79c81a6d",
+    "timestamp": "2026-09-06T20:15:53.465550+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1056",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.232,
+      "impact_velocity_mps": 2.134,
+      "impact_energy_j": 11.38,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1056_thrown_280.webm",
+      "frame_number": 280
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "9041b726-3daa-4dfc-ab0c-af9bf89447e8",
+    "timestamp": "2026-09-06T20:16:03.086989+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1054",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.068,
+      "impact_velocity_mps": 1.155,
+      "impact_energy_j": 3.335,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1054_dropped_289.webm",
+      "frame_number": 289
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "14ff9ead-0fda-4900-bd2f-9d481b249b73",
+    "timestamp": "2026-09-06T20:16:03.830525+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1059",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1059_thrown_293.webm",
+      "frame_number": 293
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "c4227bdd-6c64-40a0-944b-5991d3c1d46c",
+    "timestamp": "2026-09-06T20:16:03.830623+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1025",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1025_dragged_293.webm",
+      "frame_number": 293
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "dbb50c34-332c-457d-9276-e2ec909a89f1",
+    "timestamp": "2026-09-06T20:16:04.448327+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1048",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1048_thrown_296.webm",
+      "frame_number": 296
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "41ba46d7-2858-47db-a32c-e6bb20457e80",
+    "timestamp": "2026-09-06T20:16:37.790603+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1023",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1023_over_stacked_311.webm",
+      "frame_number": 311
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "c7c23e5a-3461-4ea5-8260-8af4d7e13606",
+    "timestamp": "2026-09-06T20:16:47.116988+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1029",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1029_over_stacked_320.webm",
+      "frame_number": 320
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "28c6bd20-6f30-4d36-8889-f8f13d094f71",
+    "timestamp": "2026-09-06T20:17:12.435021+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1059",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.06,
+      "impact_velocity_mps": 1.085,
+      "impact_energy_j": 2.943,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1059_dropped_335.webm",
+      "frame_number": 335
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "26017e60-a33f-4186-8b2e-ecf46a75b6c3",
+    "timestamp": "2026-09-06T20:17:22.481491+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1063",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.084,
+      "impact_velocity_mps": 1.284,
+      "impact_energy_j": 4.12,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1063_dropped_346.webm",
+      "frame_number": 346
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "25a6c28a-8872-4b04-9c30-00b56d7a1792",
+    "timestamp": "2026-09-06T20:17:32.766214+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1080",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1080_over_stacked_359.webm",
+      "frame_number": 359
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "b9a46bef-2093-480f-8c31-b8e0fbfba90a",
+    "timestamp": "2026-09-06T20:17:33.448939+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1045",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1045_thrown_362.webm",
+      "frame_number": 362
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "ffe5d8bd-b177-4a4a-a009-c8f73d39af5e",
+    "timestamp": "2026-09-06T20:17:42.654606+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1076",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.046,
+      "impact_velocity_mps": 0.95,
+      "impact_energy_j": 2.256,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1076_thrown_368.webm",
+      "frame_number": 368
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "b20c7d25-510d-488d-b576-4567bdc27e1a",
+    "timestamp": "2026-09-06T20:17:54.144207+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1083",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1083_thrown_387.webm",
+      "frame_number": 387
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "e6a2f021-5c40-4986-ba58-89f2bbc44d6d",
+    "timestamp": "2026-09-06T20:18:02.850908+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1083",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1083_wrong_orientation_391.webm",
+      "frame_number": 391
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "90e99897-52fa-4de3-8970-c3b5190cec1a",
+    "timestamp": "2026-09-06T20:18:20.951191+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1083",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.056,
+      "impact_velocity_mps": 1.048,
+      "impact_energy_j": 2.747,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1083_dropped_399.webm",
+      "frame_number": 399
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "76a75d40-f4f3-4d4c-a1d3-2c8398688150",
+    "timestamp": "2026-09-06T20:18:21.622481+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1093",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.192,
+      "impact_velocity_mps": 1.941,
+      "impact_energy_j": 9.418,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1093_dropped_402.webm",
+      "frame_number": 402
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "51c48d17-b438-414f-8895-37fc2b7fc024",
+    "timestamp": "2026-09-06T20:18:23.368168+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1092",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1092_over_stacked_411.webm",
+      "frame_number": 411
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "c415bf74-c9f6-4209-95b3-c95a6a3109b4",
+    "timestamp": "2026-09-06T20:18:24.017055+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1100",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.184,
+      "impact_velocity_mps": 1.9,
+      "impact_energy_j": 9.025,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1100_dropped_414.webm",
+      "frame_number": 414
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "22cd2a94-e856-4929-8d07-5bc7c4db5ebd",
+    "timestamp": "2026-09-06T20:18:59.922442+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1102",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.146,
+      "impact_velocity_mps": 1.692,
+      "impact_energy_j": 7.161,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1102_dropped_435.webm",
+      "frame_number": 435
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "8d468d70-93d9-430a-93bf-53549cadff68",
+    "timestamp": "2026-09-06T20:18:59.922532+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1102",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1102_over_stacked_435.webm",
+      "frame_number": 435
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "72f7e833-f243-45ec-8e77-3e63c9816cbe",
+    "timestamp": "2026-09-06T20:19:17.714617+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1094",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1094_dragged_448.webm",
+      "frame_number": 448
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "dee1d82d-b975-4942-9ad1-b1acf0f952ea",
+    "timestamp": "2026-09-06T20:19:20.297606+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1094",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.054,
+      "impact_velocity_mps": 1.029,
+      "impact_energy_j": 2.649,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1094_dropped_461.webm",
+      "frame_number": 461
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "5d938ab2-3c56-40d6-816b-58b398aa4d1a",
+    "timestamp": "2026-09-06T20:19:21.213690+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1094",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1094_wrong_orientation_465.webm",
+      "frame_number": 465
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "83a26b49-09a9-4d5b-ba3a-843dbcaf003f",
+    "timestamp": "2026-09-06T20:20:03.550003+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1109",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1109_wrong_orientation_497.webm",
+      "frame_number": 497
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "df07860e-906a-40b3-8764-36046d0fbd79",
+    "timestamp": "2026-09-06T20:20:05.666418+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1112",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.15,
+      "impact_velocity_mps": 1.716,
+      "impact_energy_j": 7.357,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1112_dropped_507.webm",
+      "frame_number": 507
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "6eb46643-fa05-4947-8b56-04ef22ec325b",
+    "timestamp": "2026-09-06T20:20:05.666503+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1108",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1108_over_stacked_507.webm",
+      "frame_number": 507
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "667f880a-bada-4271-94b4-531cb9f19df4",
+    "timestamp": "2026-09-06T20:20:34.011752+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1094",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1094_dragged_538.webm",
+      "frame_number": 538
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "640fce7c-22d0-432d-a66d-8137f08f30ed",
+    "timestamp": "2026-09-06T20:20:36.285456+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1114",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1114_dragged_551.webm",
+      "frame_number": 551
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "eda15832-6600-4a34-b95b-f45e84dc6b42",
+    "timestamp": "2026-09-06T20:20:36.861244+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1121",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.192,
+      "impact_velocity_mps": 1.941,
+      "impact_energy_j": 9.418,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1121_dropped_554.webm",
+      "frame_number": 554
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "0a32c9fa-7bde-4081-a481-7a0c512db6f0",
+    "timestamp": "2026-09-06T20:21:04.890052+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1129",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1129_over_stacked_595.webm",
+      "frame_number": 595
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "854e1d90-cdb0-41ca-912d-cfdd8ff161f0",
+    "timestamp": "2026-09-06T20:21:05.865191+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1128",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.112,
+      "impact_velocity_mps": 1.482,
+      "impact_energy_j": 5.494,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1128_dropped_600.webm",
+      "frame_number": 600
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "16f1db68-cf7e-4e8b-be2a-c52df0a7b3ea",
+    "timestamp": "2026-09-06T20:21:06.604708+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1129",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.068,
+      "impact_velocity_mps": 1.155,
+      "impact_energy_j": 3.335,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1129_dropped_604.webm",
+      "frame_number": 604
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "9b536d2c-3a16-4df1-9f38-72f5c5d38f5a",
+    "timestamp": "2026-09-06T20:21:07.167578+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1133",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.058,
+      "impact_velocity_mps": 1.067,
+      "impact_energy_j": 2.845,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1133_dropped_607.webm",
+      "frame_number": 607
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "d19273c8-73a2-49a9-8b98-be0b11e2dbc0",
+    "timestamp": "2026-09-06T20:21:08.671314+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1134",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.036,
+      "impact_velocity_mps": 0.84,
+      "impact_energy_j": 1.766,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1134_thrown_615.webm",
+      "frame_number": 615
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "7e4ba66e-0391-411a-b3cd-d1b7e3567c8c",
+    "timestamp": "2026-09-06T20:21:09.263721+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1137",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.054,
+      "impact_velocity_mps": 1.029,
+      "impact_energy_j": 2.649,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1137_dropped_618.webm",
+      "frame_number": 618
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "49842695-beec-4b55-b2b1-be6b0df3ab9c",
+    "timestamp": "2026-09-06T20:21:09.462555+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1137",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1137_over_stacked_619.webm",
+      "frame_number": 619
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "1ee8acd2-c75e-4927-ab23-8a438e5b1c22",
+    "timestamp": "2026-09-06T20:21:09.462638+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1140",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.058,
+      "impact_velocity_mps": 1.067,
+      "impact_energy_j": 2.845,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1140_dropped_619.webm",
+      "frame_number": 619
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "4c24546e-afe7-47ad-ae94-71995914c68a",
+    "timestamp": "2026-09-06T20:21:25.696919+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1131",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.286,
+      "impact_velocity_mps": 2.369,
+      "impact_energy_j": 14.028,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1131_dropped_632.webm",
+      "frame_number": 632
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "61935923-2424-4138-886c-02f9573c105b",
+    "timestamp": "2026-09-06T20:21:33.430107+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1114",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.05,
+      "impact_velocity_mps": 0.99,
+      "impact_energy_j": 2.453,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1114_dropped_637.webm",
+      "frame_number": 637
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "8101c21c-9e1f-408f-9924-c8ceca55cb76",
+    "timestamp": "2026-09-06T20:21:48.678691+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1129",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1129_thrown_648.webm",
+      "frame_number": 648
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "f7ac77c7-23e0-4e4b-9e96-a683eaf643e8",
+    "timestamp": "2026-09-06T20:22:17.914381+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1114",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1114_dragged_665.webm",
+      "frame_number": 665
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "2b541c42-9487-4f7a-b827-3dcb9649b201",
+    "timestamp": "2026-09-06T20:22:47.288060+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1157",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.052,
+      "impact_velocity_mps": 1.01,
+      "impact_energy_j": 2.551,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1157_dropped_720.webm",
+      "frame_number": 720
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "00977980-54ad-45ba-9a9e-71376bad90bc",
+    "timestamp": "2026-09-06T20:23:00.229984+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1114",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1114_dragged_755.webm",
+      "frame_number": 755
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "fea31b4f-51b7-4759-b6c9-172b15204faf",
+    "timestamp": "2026-09-06T20:23:32.264829+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1168",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.05,
+      "impact_velocity_mps": 0.99,
+      "impact_energy_j": 2.453,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1168_dropped_893.webm",
+      "frame_number": 893
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "4191a0db-eae7-45ac-9a1d-14210f68d85d",
+    "timestamp": "2026-09-06T20:23:36.927930+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\dock_level_dragging_cupboard.mp4",
+    "bay": "bay-1",
+    "package_id": "1168",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\dock_level_dragging_cupboard\\clips\\track1168_dragged_918.webm",
+      "frame_number": 918
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  }
+]
