@@ -1,0 +1,3053 @@
+[
+  {
+    "event_id": "de1e0e34-60d9-4335-b833-5226a21a34b3",
+    "timestamp": "2026-09-06T20:40:57.503530+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1000",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1000_over_stacked_5.webm",
+      "frame_number": 5
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "71950a44-91ff-4a0e-a2a7-93fcfa227150",
+    "timestamp": "2026-09-06T20:40:59.831046+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1002",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.086,
+      "impact_velocity_mps": 1.299,
+      "impact_energy_j": 4.218,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1002_dropped_16.webm",
+      "frame_number": 16
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "ae9d32a3-cde2-455d-b44e-371602999ae4",
+    "timestamp": "2026-09-06T20:41:03.272699+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1006",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1006_thrown_32.webm",
+      "frame_number": 32
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "81c9adca-3e1e-4f23-82d2-d4765f9f8d88",
+    "timestamp": "2026-09-06T20:41:03.780820+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1001",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1001_wrong_orientation_34.webm",
+      "frame_number": 34
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "fc449927-8e51-4985-b466-4dd22f841aac",
+    "timestamp": "2026-09-06T20:41:08.941972+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1000",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1000_wrong_orientation_37.webm",
+      "frame_number": 37
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "641d27b7-d853-4b16-a6ad-bf39fee70209",
+    "timestamp": "2026-09-06T20:41:16.842126+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1014",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.05,
+      "impact_velocity_mps": 0.99,
+      "impact_energy_j": 2.453,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1014_dropped_47.webm",
+      "frame_number": 47
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "f220ddcf-3037-47ce-bc33-85c0a5d9e6df",
+    "timestamp": "2026-09-06T20:41:17.895851+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1011",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.09,
+      "impact_velocity_mps": 1.329,
+      "impact_energy_j": 4.414,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1011_dropped_52.webm",
+      "frame_number": 52
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "27ee44ac-19bf-4f0a-ac27-b474e7b30ddc",
+    "timestamp": "2026-09-06T20:41:18.309423+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1009",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.064,
+      "impact_velocity_mps": 1.121,
+      "impact_energy_j": 3.139,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1009_thrown_54.webm",
+      "frame_number": 54
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "d8c86f12-b99d-4229-a005-7d0b4b151e39",
+    "timestamp": "2026-09-06T20:41:18.544190+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1012",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.104,
+      "impact_velocity_mps": 1.428,
+      "impact_energy_j": 5.101,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1012_dropped_55.webm",
+      "frame_number": 55
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "78292873-79b6-48df-bdc8-1494a4ed02df",
+    "timestamp": "2026-09-06T20:41:18.770762+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1009",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1009_over_stacked_56.webm",
+      "frame_number": 56
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "8d0bc512-1736-4355-9ad1-53e219074449",
+    "timestamp": "2026-09-06T20:41:18.931320+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1001",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.092,
+      "impact_velocity_mps": 1.344,
+      "impact_energy_j": 4.513,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1001_dropped_57.webm",
+      "frame_number": 57
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "d091706a-d072-41ec-9861-a5493165def1",
+    "timestamp": "2026-09-06T20:41:43.222223+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1009",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.106,
+      "impact_velocity_mps": 1.442,
+      "impact_energy_j": 5.199,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1009_dropped_68.webm",
+      "frame_number": 68
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "36226d7b-cecf-479b-9f38-1e1538dd2a24",
+    "timestamp": "2026-09-06T20:41:43.965246+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1006",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1006_over_stacked_72.webm",
+      "frame_number": 72
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "2fbf2d5b-3148-4aeb-bcdb-7cc489225e07",
+    "timestamp": "2026-09-06T20:41:44.351362+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1000",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.254,
+      "impact_velocity_mps": 2.232,
+      "impact_energy_j": 12.459,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1000_dropped_74.webm",
+      "frame_number": 74
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "098ea6df-4cc4-41cb-8151-0d0b3ac5178f",
+    "timestamp": "2026-09-06T20:41:44.351431+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1003",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1003_dragged_74.webm",
+      "frame_number": 74
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "ca958ac4-4dd9-4d86-8535-8de718c1a49d",
+    "timestamp": "2026-09-06T20:41:44.530430+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1011",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1011_dragged_75.webm",
+      "frame_number": 75
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "49534e49-2260-436e-8c4d-1be0777bf1ba",
+    "timestamp": "2026-09-06T20:41:52.794505+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1006",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1006_dragged_80.webm",
+      "frame_number": 80
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "f9dfdcb0-e5c2-49b9-b34e-7eb0ca7de207",
+    "timestamp": "2026-09-06T20:42:30.020685+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1025",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.05,
+      "impact_velocity_mps": 0.99,
+      "impact_energy_j": 2.453,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1025_dropped_93.webm",
+      "frame_number": 93
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "f9df2539-c5cd-4bb7-b4a0-ed358e80ad6c",
+    "timestamp": "2026-09-06T20:42:30.686238+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1022",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.014,
+      "impact_velocity_mps": 0.524,
+      "impact_energy_j": 0.687,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1022_thrown_97.webm",
+      "frame_number": 97
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "d4ec8427-a259-40db-ac60-e312dfdf306f",
+    "timestamp": "2026-09-06T20:43:06.169076+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1006",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.05,
+      "impact_velocity_mps": 0.99,
+      "impact_energy_j": 2.453,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1006_dropped_108.webm",
+      "frame_number": 108
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "6523d16c-49c5-4479-a84a-336c0f867202",
+    "timestamp": "2026-09-06T20:43:14.574902+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1000",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1000_dragged_118.webm",
+      "frame_number": 118
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "0054c93d-5ce3-4156-9431-91f25c92825c",
+    "timestamp": "2026-09-06T20:43:14.758405+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1026",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1026_thrown_119.webm",
+      "frame_number": 119
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "cdcd29f8-f0cf-45a3-a829-e7e4db30229d",
+    "timestamp": "2026-09-06T20:43:54.733833+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1038",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1038_over_stacked_153.webm",
+      "frame_number": 153
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "472f1de0-231a-45a7-af72-279f8694c888",
+    "timestamp": "2026-09-06T20:43:55.836032+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1025",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.042,
+      "impact_velocity_mps": 0.908,
+      "impact_energy_j": 2.06,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1025_thrown_159.webm",
+      "frame_number": 159
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "838429a6-178e-49c1-864d-923c25f10af1",
+    "timestamp": "2026-09-06T20:43:56.565985+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1025",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1025_dragged_163.webm",
+      "frame_number": 163
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "656c240b-35fb-4716-96e0-6cdce23d5b55",
+    "timestamp": "2026-09-06T20:43:57.104792+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1003",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1003_dragged_166.webm",
+      "frame_number": 166
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "7e4bb29d-f293-4f6c-8872-7021fc7f4852",
+    "timestamp": "2026-09-06T20:43:58.373145+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1006",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1006_dragged_173.webm",
+      "frame_number": 173
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "5f4ed587-19a5-4eef-9984-2ff1677eb244",
+    "timestamp": "2026-09-06T20:43:59.688922+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1000",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.038,
+      "impact_velocity_mps": 0.863,
+      "impact_energy_j": 1.864,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1000_thrown_180.webm",
+      "frame_number": 180
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "aa87c76b-f7df-48a6-9fa8-e08b40b95fec",
+    "timestamp": "2026-09-06T20:44:07.754459+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1039",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1039_thrown_185.webm",
+      "frame_number": 185
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "4afb5b24-610e-4e45-9e02-b8ef15afa33b",
+    "timestamp": "2026-09-06T20:44:40.269228+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1000",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1000_dragged_210.webm",
+      "frame_number": 210
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "f713668c-fce9-4274-9456-2446624b1e9d",
+    "timestamp": "2026-09-06T20:45:08.461101+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1043",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.15,
+      "impact_velocity_mps": 1.716,
+      "impact_energy_j": 7.357,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1043_dropped_250.webm",
+      "frame_number": 250
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "c109670d-5c71-47a8-8009-ff9da6fc25a8",
+    "timestamp": "2026-09-06T20:45:11.496871+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1006",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1006_dragged_267.webm",
+      "frame_number": 267
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "220d9e4b-9de7-453e-8837-2ea099a5b006",
+    "timestamp": "2026-09-06T20:45:13.892128+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1003",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1003_dragged_280.webm",
+      "frame_number": 280
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "d18d510f-37d4-4646-8d2a-35cbffd39bb4",
+    "timestamp": "2026-09-06T20:45:45.203617+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1062",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1062_over_stacked_341.webm",
+      "frame_number": 341
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "8eb6b0b2-062e-4548-812a-6f265d701692",
+    "timestamp": "2026-09-06T20:45:45.388933+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1003",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.05,
+      "impact_velocity_mps": 0.99,
+      "impact_energy_j": 2.453,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1003_dropped_342.webm",
+      "frame_number": 342
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "bdf6f4dc-eebf-41bb-892f-04ae8df34627",
+    "timestamp": "2026-09-06T20:45:48.240737+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1006",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1006_dragged_358.webm",
+      "frame_number": 358
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "92ec8b20-4697-4ce6-8bac-301887d3ed58",
+    "timestamp": "2026-09-06T20:45:50.368462+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1003",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1003_dragged_370.webm",
+      "frame_number": 370
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "a3282356-5cad-48f4-9596-f4f03dd96bff",
+    "timestamp": "2026-09-06T20:46:04.200095+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1025",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1025_dragged_374.webm",
+      "frame_number": 374
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "b5f0e23c-133b-4bf0-b68a-20320d8ac705",
+    "timestamp": "2026-09-06T20:46:14.454731+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1062",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1062_thrown_394.webm",
+      "frame_number": 394
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "16a3bcbb-9670-44a5-9373-9049fa0e9479",
+    "timestamp": "2026-09-06T20:46:30.684410+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1069",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1069_over_stacked_411.webm",
+      "frame_number": 411
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "693a9f89-2201-453b-930a-2dae0bdaf544",
+    "timestamp": "2026-09-06T20:46:31.663251+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1069",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "stepped_on",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1069_stepped_on_416.webm",
+      "frame_number": 416
+    },
+    "risk_level": "high",
+    "confidence": 0.8,
+    "requires_human_review": true,
+    "_reason": "person stepped on package"
+  },
+  {
+    "event_id": "19c5217b-7cc2-477e-9d50-b17bbdd1fa3b",
+    "timestamp": "2026-09-06T20:46:50.073818+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1025",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1025_over_stacked_446.webm",
+      "frame_number": 446
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "c2f787cc-9387-4cc2-848e-c808057fe483",
+    "timestamp": "2026-09-06T20:47:09.016994+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1077",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1077_thrown_477.webm",
+      "frame_number": 477
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "ad2facb0-9ed6-49b2-9ab6-0b2c1cd947d6",
+    "timestamp": "2026-09-06T20:47:09.172151+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1079",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1079_over_stacked_478.webm",
+      "frame_number": 478
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "6eacb1fd-4d23-42be-963b-b88139b647ce",
+    "timestamp": "2026-09-06T20:47:10.980873+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1050",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.064,
+      "impact_velocity_mps": 1.121,
+      "impact_energy_j": 3.139,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1050_thrown_488.webm",
+      "frame_number": 488
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "99f300a3-3e9f-4755-8027-69a7866ea48e",
+    "timestamp": "2026-09-06T20:47:28.411759+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1086",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1086_over_stacked_512.webm",
+      "frame_number": 512
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "2efbf29d-3bed-4d11-8a8b-7be99109f15b",
+    "timestamp": "2026-09-06T20:47:47.866381+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1090",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1090_over_stacked_547.webm",
+      "frame_number": 547
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "a43be48a-81c3-42c7-b4c1-73e36843c5b6",
+    "timestamp": "2026-09-06T20:47:48.734321+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1090",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.054,
+      "impact_velocity_mps": 1.029,
+      "impact_energy_j": 2.649,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1090_dropped_552.webm",
+      "frame_number": 552
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "e1bb5b61-1161-4a3b-89a7-6d9226ffb7df",
+    "timestamp": "2026-09-06T20:47:48.734387+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1090",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "stepped_on",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1090_stepped_on_552.webm",
+      "frame_number": 552
+    },
+    "risk_level": "high",
+    "confidence": 0.8,
+    "requires_human_review": true,
+    "_reason": "person stepped on package"
+  },
+  {
+    "event_id": "330bbd6e-0011-46a3-8068-592c7995686e",
+    "timestamp": "2026-09-06T20:47:49.516513+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1062",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.066,
+      "impact_velocity_mps": 1.138,
+      "impact_energy_j": 3.237,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1062_dropped_556.webm",
+      "frame_number": 556
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "dada9f42-3044-451a-a20d-02e365451f7b",
+    "timestamp": "2026-09-06T20:48:23.773708+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1089",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1089_thrown_593.webm",
+      "frame_number": 593
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "c75b1b1e-6b68-4444-8699-0af64e1b1ebf",
+    "timestamp": "2026-09-06T20:48:24.610387+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1089",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1089_over_stacked_598.webm",
+      "frame_number": 598
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "b811038e-960c-496f-812c-6e1c1bfd7feb",
+    "timestamp": "2026-09-06T20:48:28.208982+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1111",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1111_over_stacked_618.webm",
+      "frame_number": 618
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "1ea950d7-d0bf-41dc-9989-bcfd65604c1e",
+    "timestamp": "2026-09-06T20:48:54.290021+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1089",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1089_dragged_649.webm",
+      "frame_number": 649
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "db0005cc-e9db-40ef-a893-5fd48c9eff44",
+    "timestamp": "2026-09-06T20:48:55.038050+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1089",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.258,
+      "impact_velocity_mps": 2.25,
+      "impact_energy_j": 12.655,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1089_dropped_653.webm",
+      "frame_number": 653
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "0ca62898-7d36-4d11-9659-9cbf8f716189",
+    "timestamp": "2026-09-06T20:48:58.383885+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1123",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1123_over_stacked_671.webm",
+      "frame_number": 671
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "9a53df07-89d3-403a-9bcb-3762b7672b6f",
+    "timestamp": "2026-09-06T20:48:59.019281+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1131",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1131_over_stacked_674.webm",
+      "frame_number": 674
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "7d213a37-0607-4cb7-9e81-4ec32c9b5795",
+    "timestamp": "2026-09-06T20:48:59.800922+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1124",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.024,
+      "impact_velocity_mps": 0.686,
+      "impact_energy_j": 1.177,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1124_thrown_678.webm",
+      "frame_number": 678
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "2d8f5158-da08-4217-b698-8231c7f37666",
+    "timestamp": "2026-09-06T20:49:23.958403+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1137",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.06,
+      "impact_velocity_mps": 1.085,
+      "impact_energy_j": 2.943,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1137_dropped_702.webm",
+      "frame_number": 702
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "51e435f5-3ac3-4f8f-b223-2fe3e767343a",
+    "timestamp": "2026-09-06T20:49:39.430542+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1137",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1137_over_stacked_714.webm",
+      "frame_number": 714
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "d8a695d9-a006-443b-921f-d51ce0ae7730",
+    "timestamp": "2026-09-06T20:49:39.793315+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1124",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1124_wrong_orientation_716.webm",
+      "frame_number": 716
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "3ad5e92e-4e65-41ad-af5b-8767b24a15f1",
+    "timestamp": "2026-09-06T20:49:40.970432+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1145",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.15,
+      "impact_velocity_mps": 1.716,
+      "impact_energy_j": 7.357,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1145_dropped_723.webm",
+      "frame_number": 723
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "ef9bab14-340e-45c5-bae0-ddb9e4ea0533",
+    "timestamp": "2026-09-06T20:49:51.357309+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1143",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.086,
+      "impact_velocity_mps": 1.299,
+      "impact_energy_j": 4.218,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1143_dropped_744.webm",
+      "frame_number": 744
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "c7bb4e91-3cc8-493c-90e4-37769f5b86e7",
+    "timestamp": "2026-09-06T20:50:15.510582+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1146",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1146_over_stacked_764.webm",
+      "frame_number": 764
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "e4a58e88-86d1-4501-a250-c794c079a358",
+    "timestamp": "2026-09-06T20:50:16.980008+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1162",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1162_over_stacked_772.webm",
+      "frame_number": 772
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "7a7ac914-595c-4019-b6c5-6eb4a15fd522",
+    "timestamp": "2026-09-06T20:50:17.385891+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1157",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1157_over_stacked_774.webm",
+      "frame_number": 774
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "7b8febf9-1e32-4d64-9613-b5af819a19fc",
+    "timestamp": "2026-09-06T20:50:25.387111+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1124",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.296,
+      "impact_velocity_mps": 2.41,
+      "impact_energy_j": 14.519,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1124_dropped_781.webm",
+      "frame_number": 781
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "4efb9bad-31aa-4a27-9386-87d0cc853c47",
+    "timestamp": "2026-09-06T20:50:25.387187+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1161",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.08,
+      "impact_velocity_mps": 1.253,
+      "impact_energy_j": 3.924,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1161_thrown_781.webm",
+      "frame_number": 781
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "1b786091-4df3-4ac0-8481-27bd9843e8e7",
+    "timestamp": "2026-09-06T20:50:25.387228+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1158",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1158_over_stacked_781.webm",
+      "frame_number": 781
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "488ddb30-da57-4591-bf0f-834b1c7bb548",
+    "timestamp": "2026-09-06T20:50:35.105958+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1124",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1124_over_stacked_796.webm",
+      "frame_number": 796
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "5d1de3e1-6c89-4032-b429-b9e1e0820fb6",
+    "timestamp": "2026-09-06T20:50:36.006238+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1177",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1177_over_stacked_801.webm",
+      "frame_number": 801
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "74555e5d-18f7-4537-b47e-928df989da52",
+    "timestamp": "2026-09-06T20:50:43.294428+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1166",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.042,
+      "impact_velocity_mps": 0.908,
+      "impact_energy_j": 2.06,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1166_thrown_803.webm",
+      "frame_number": 803
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "f1869dc1-bf6c-49dc-8e3e-844641b2e38a",
+    "timestamp": "2026-09-06T20:50:43.294523+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1172",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.182,
+      "impact_velocity_mps": 1.89,
+      "impact_energy_j": 8.927,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1172_dropped_803.webm",
+      "frame_number": 803
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "3ef83b52-8983-40f1-8307-aaf9a1183499",
+    "timestamp": "2026-09-06T20:50:51.450972+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1180",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.064,
+      "impact_velocity_mps": 1.121,
+      "impact_energy_j": 3.139,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1180_dropped_810.webm",
+      "frame_number": 810
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "b87edf89-7038-4db7-baf3-19188a30bb5a",
+    "timestamp": "2026-09-06T20:51:12.870319+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1183",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1183_thrown_814.webm",
+      "frame_number": 814
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "30bcb923-2f6a-4188-bd07-b7a7d4aa2ccf",
+    "timestamp": "2026-09-06T20:51:14.097156+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1161",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1161_wrong_orientation_821.webm",
+      "frame_number": 821
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "16b2a2a0-0473-41df-948c-7b66fa8a27ef",
+    "timestamp": "2026-09-06T20:51:14.991880+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1161",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1161_over_stacked_826.webm",
+      "frame_number": 826
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "bdae5974-c520-4f9a-b9a1-5b08ea20c925",
+    "timestamp": "2026-09-06T20:51:22.258151+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1183",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1183_wrong_orientation_829.webm",
+      "frame_number": 829
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "32bf41cd-2175-4c50-b9a6-27daf0d849a2",
+    "timestamp": "2026-09-06T20:51:22.435527+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1166",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.144,
+      "impact_velocity_mps": 1.681,
+      "impact_energy_j": 7.063,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1166_dropped_830.webm",
+      "frame_number": 830
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "6f493dc7-9b8d-47eb-a0c0-42d6f39bc3ae",
+    "timestamp": "2026-09-06T20:51:44.192864+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1162",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.02,
+      "impact_velocity_mps": 0.626,
+      "impact_energy_j": 0.981,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1162_thrown_839.webm",
+      "frame_number": 839
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "36ff9b07-8694-460c-909f-8a8f25a078a0",
+    "timestamp": "2026-09-06T20:52:15.225444+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1194",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1194_over_stacked_859.webm",
+      "frame_number": 859
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "354a9ec3-7da2-4b7c-8426-6776344b8e48",
+    "timestamp": "2026-09-06T20:52:22.192068+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1168",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.058,
+      "impact_velocity_mps": 1.067,
+      "impact_energy_j": 2.845,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1168_dropped_860.webm",
+      "frame_number": 860
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "f079531b-562c-4f88-a4ef-dfca10733895",
+    "timestamp": "2026-09-06T20:52:29.558115+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1194",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.002,
+      "impact_velocity_mps": 0.198,
+      "impact_energy_j": 0.098,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1194_thrown_863.webm",
+      "frame_number": 863
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "31fb849f-dac1-4304-b488-e415fe6c5681",
+    "timestamp": "2026-09-06T20:53:06.744452+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1220",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.034,
+      "impact_velocity_mps": 0.817,
+      "impact_energy_j": 1.668,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1220_thrown_918.webm",
+      "frame_number": 918
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "bd350dd7-4ef5-41d9-a6bf-1bebbf345f64",
+    "timestamp": "2026-09-06T20:53:07.064806+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1219",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1219_over_stacked_920.webm",
+      "frame_number": 920
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "67d91b04-e845-4a22-8692-f6d262fdc837",
+    "timestamp": "2026-09-06T20:53:07.446347+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1220",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1220_wrong_orientation_922.webm",
+      "frame_number": 922
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "50fadccc-dce7-4302-bdbe-10c641ea2ec6",
+    "timestamp": "2026-09-06T20:53:08.035301+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1219",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1219_thrown_925.webm",
+      "frame_number": 925
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "14b6c74a-2896-463b-bef2-0f102eee9f70",
+    "timestamp": "2026-09-06T20:53:08.808842+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1220",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1220_over_stacked_929.webm",
+      "frame_number": 929
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "be68aa20-eaee-47d2-a0a1-1e6a4b99d986",
+    "timestamp": "2026-09-06T20:53:33.549978+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1230",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.054,
+      "impact_velocity_mps": 1.029,
+      "impact_energy_j": 2.649,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1230_dropped_953.webm",
+      "frame_number": 953
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "f37eb0cf-51f7-473d-8efe-3d4631a1f46b",
+    "timestamp": "2026-09-06T20:53:41.102621+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1219",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.056,
+      "impact_velocity_mps": 1.048,
+      "impact_energy_j": 2.747,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1219_dropped_958.webm",
+      "frame_number": 958
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "98af2820-b557-4976-af04-5d0b8285fdf1",
+    "timestamp": "2026-09-06T20:53:51.167218+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1226",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1226_wrong_orientation_977.webm",
+      "frame_number": 977
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "7140454f-a732-43d0-ae66-ebc5acec41c3",
+    "timestamp": "2026-09-06T20:54:07.792257+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1168",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.096,
+      "impact_velocity_mps": 1.372,
+      "impact_energy_j": 4.709,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1168_thrown_992.webm",
+      "frame_number": 992
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "9898c7f1-87ed-4d37-a5f6-7003a12bcb77",
+    "timestamp": "2026-09-06T20:54:10.597304+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1241",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.032,
+      "impact_velocity_mps": 0.792,
+      "impact_energy_j": 1.57,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1241_thrown_1007.webm",
+      "frame_number": 1007
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "5cca5346-3cb3-4986-916a-3af79b47eafe",
+    "timestamp": "2026-09-06T20:54:18.743462+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1250",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1250_over_stacked_1013.webm",
+      "frame_number": 1013
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "35dca3b1-e6cc-487f-a0ae-7d5296662b66",
+    "timestamp": "2026-09-06T20:54:46.013082+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1241",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1241_over_stacked_1046.webm",
+      "frame_number": 1046
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "905fd3d3-07fe-4933-adef-00f87e85e290",
+    "timestamp": "2026-09-06T20:54:46.195636+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1254",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.062,
+      "impact_velocity_mps": 1.103,
+      "impact_energy_j": 3.041,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1254_dropped_1047.webm",
+      "frame_number": 1047
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "b035a373-ab99-4d5a-b9a3-a6ea0446f328",
+    "timestamp": "2026-09-06T20:54:46.604342+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1261",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1261_over_stacked_1049.webm",
+      "frame_number": 1049
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "cfc2febd-54d5-4ce0-b970-0c5ba93cc0eb",
+    "timestamp": "2026-09-06T20:54:47.323815+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1158",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.066,
+      "impact_velocity_mps": 1.138,
+      "impact_energy_j": 3.237,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1158_dropped_1053.webm",
+      "frame_number": 1053
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "6c81e18d-cdab-4ee3-8fb2-7e1c3275386d",
+    "timestamp": "2026-09-06T20:54:49.135709+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1241",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1241_wrong_orientation_1062.webm",
+      "frame_number": 1062
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "9ee2f0c3-34ba-4aea-ba67-d562057dd741",
+    "timestamp": "2026-09-06T20:54:50.378386+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1230",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1230_thrown_1068.webm",
+      "frame_number": 1068
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "2972347a-52ad-4a5d-9343-4bfba29d910c",
+    "timestamp": "2026-09-06T20:54:59.188973+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1241",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1241_dragged_1077.webm",
+      "frame_number": 1077
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "be74cfcf-f8e0-4546-8216-e94193490d24",
+    "timestamp": "2026-09-06T20:55:06.630692+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1219",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1219_dragged_1079.webm",
+      "frame_number": 1079
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "263f961e-b751-4443-89d8-464042a5053c",
+    "timestamp": "2026-09-06T20:55:14.047381+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1268",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1268_dragged_1081.webm",
+      "frame_number": 1081
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "0fb05e69-cb81-422f-8bfb-9942af68b47f",
+    "timestamp": "2026-09-06T20:55:22.974013+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1158",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1158_dragged_1092.webm",
+      "frame_number": 1092
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "a19bc8b8-ab84-4b52-ad4e-1177a4bacca5",
+    "timestamp": "2026-09-06T20:56:11.046709+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1277",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1277_over_stacked_1129.webm",
+      "frame_number": 1129
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "e493f020-c530-4276-8193-b20cb8956f1c",
+    "timestamp": "2026-09-06T20:56:11.600505+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1277",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.04,
+      "impact_velocity_mps": 0.886,
+      "impact_energy_j": 1.962,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1277_thrown_1132.webm",
+      "frame_number": 1132
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "fecf6281-937f-4c8e-98a3-8c25511b225f",
+    "timestamp": "2026-09-06T20:56:32.534795+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1219",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1219_dragged_1170.webm",
+      "frame_number": 1170
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "77b4baf2-f53d-432b-8584-afdc9286dfec",
+    "timestamp": "2026-09-06T20:56:34.544633+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1268",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1268_dragged_1181.webm",
+      "frame_number": 1181
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "71498930-2039-4d93-9f09-ff67572d2b54",
+    "timestamp": "2026-09-06T20:56:36.290405+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1241",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1241_dragged_1191.webm",
+      "frame_number": 1191
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "841ce7b2-82b0-4e58-94b8-4c628507496b",
+    "timestamp": "2026-09-06T20:56:46.573956+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1277",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.086,
+      "impact_velocity_mps": 1.299,
+      "impact_energy_j": 4.218,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1277_dropped_1208.webm",
+      "frame_number": 1208
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "157936ae-d4b0-4b92-98c3-1b29b40e76a8",
+    "timestamp": "2026-09-06T20:56:55.866619+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1292",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.034,
+      "impact_velocity_mps": 0.817,
+      "impact_energy_j": 1.668,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1292_thrown_1220.webm",
+      "frame_number": 1220
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "5cb985a2-3063-46f4-aebe-83692883c3b0",
+    "timestamp": "2026-09-06T20:57:04.319528+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1292",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1292_wrong_orientation_1227.webm",
+      "frame_number": 1227
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "d86a1034-c8d1-483b-b2f8-f435875c0368",
+    "timestamp": "2026-09-06T20:57:05.519658+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_mattresses.mp4",
+    "bay": "bay-1",
+    "package_id": "1306",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_mattresses\\clips\\track1306_over_stacked_1233.webm",
+      "frame_number": 1233
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  }
+]

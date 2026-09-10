@@ -1,0 +1,218 @@
+[
+  {
+    "event_id": "3c9637cf-d5b3-4949-90d3-0baf4e2655a7",
+    "timestamp": "2026-09-06T20:57:58.205664+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_seating_cartons_using_strap_to_hold.mp4",
+    "bay": "bay-1",
+    "package_id": "1003",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_seating_cartons_using_strap_to_hold\\clips\\track1003_wrong_orientation_90.webm",
+      "frame_number": 90
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "4feaf293-226c-47a2-8a79-0f3cfdd3c3f0",
+    "timestamp": "2026-09-06T20:58:17.028723+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_seating_cartons_using_strap_to_hold.mp4",
+    "bay": "bay-1",
+    "package_id": "1010",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.066,
+      "impact_velocity_mps": 1.138,
+      "impact_energy_j": 3.237,
+      "clip_path": "output_real\\throwing_seating_cartons_using_strap_to_hold\\clips\\track1010_dropped_173.webm",
+      "frame_number": 173
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "e744a01e-a4de-4351-ac28-05beda4731e6",
+    "timestamp": "2026-09-06T20:58:18.532307+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_seating_cartons_using_strap_to_hold.mp4",
+    "bay": "bay-1",
+    "package_id": "1006",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_seating_cartons_using_strap_to_hold\\clips\\track1006_dragged_182.webm",
+      "frame_number": 182
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "d57aa686-cd67-4d2f-b16c-ccd7f6e1b36c",
+    "timestamp": "2026-09-06T20:58:20.719968+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_seating_cartons_using_strap_to_hold.mp4",
+    "bay": "bay-1",
+    "package_id": "1011",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_seating_cartons_using_strap_to_hold\\clips\\track1011_dragged_195.webm",
+      "frame_number": 195
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "f2e2ed52-f347-46b7-9479-132397753f99",
+    "timestamp": "2026-09-06T20:58:35.329777+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_seating_cartons_using_strap_to_hold.mp4",
+    "bay": "bay-1",
+    "package_id": "1008",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\throwing_seating_cartons_using_strap_to_hold\\clips\\track1008_wrong_orientation_215.webm",
+      "frame_number": 215
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "3f007665-349d-4ab0-a03d-3f72dd840d35",
+    "timestamp": "2026-09-06T20:59:12.166937+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_seating_cartons_using_strap_to_hold.mp4",
+    "bay": "bay-1",
+    "package_id": "1034",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.06,
+      "impact_velocity_mps": 1.085,
+      "impact_energy_j": 2.943,
+      "clip_path": "output_real\\throwing_seating_cartons_using_strap_to_hold\\clips\\track1034_dropped_371.webm",
+      "frame_number": 371
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "bdf2235f-b87f-4c4a-bc50-cdf1eeb536c6",
+    "timestamp": "2026-09-06T20:59:28.838015+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_seating_cartons_using_strap_to_hold.mp4",
+    "bay": "bay-1",
+    "package_id": "1035",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.058,
+      "impact_velocity_mps": 1.067,
+      "impact_energy_j": 2.845,
+      "clip_path": "output_real\\throwing_seating_cartons_using_strap_to_hold\\clips\\track1035_thrown_426.webm",
+      "frame_number": 426
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "ef36048e-527b-4464-9d2d-0cd9e8a3cb17",
+    "timestamp": "2026-09-06T20:59:30.447625+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\throwing_seating_cartons_using_strap_to_hold.mp4",
+    "bay": "bay-1",
+    "package_id": "1039",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.142,
+      "impact_velocity_mps": 1.669,
+      "impact_energy_j": 6.965,
+      "clip_path": "output_real\\throwing_seating_cartons_using_strap_to_hold\\clips\\track1039_dropped_434.webm",
+      "frame_number": 434
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  }
+]
