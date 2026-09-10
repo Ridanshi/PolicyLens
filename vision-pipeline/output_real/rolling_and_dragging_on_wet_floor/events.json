@@ -1,0 +1,56 @@
+[
+  {
+    "event_id": "c8a4baa9-2fce-407b-8ecf-8d8979fab721",
+    "timestamp": "2026-09-06T19:41:25.897292+00:00",
+    "video_source": "../sample_data/godrej_pilot/rolling_and_dragging_on_wet_floor.mp4",
+    "bay": "bay-1",
+    "package_id": "1007",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.056,
+      "impact_velocity_mps": 1.048,
+      "impact_energy_j": 2.747,
+      "clip_path": "output_real/rolling_and_dragging_on_wet_floor\\clips\\track1007_dropped_122.webm",
+      "frame_number": 122
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "6a18df03-f7a8-4f2d-a3a0-c507acebc206",
+    "timestamp": "2026-09-06T19:41:27.677015+00:00",
+    "video_source": "../sample_data/godrej_pilot/rolling_and_dragging_on_wet_floor.mp4",
+    "bay": "bay-1",
+    "package_id": "1009",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.17,
+      "impact_velocity_mps": 1.826,
+      "impact_energy_j": 8.339,
+      "clip_path": "output_real/rolling_and_dragging_on_wet_floor\\clips\\track1009_dropped_128.webm",
+      "frame_number": 128
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  }
+]

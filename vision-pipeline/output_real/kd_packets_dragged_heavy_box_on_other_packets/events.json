@@ -1,0 +1,1379 @@
+[
+  {
+    "event_id": "81a93f88-882f-4c5b-9646-5366d34a4f74",
+    "timestamp": "2026-09-06T20:24:38.885310+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1001",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.052,
+      "impact_velocity_mps": 1.01,
+      "impact_energy_j": 2.551,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1001_dropped_19.webm",
+      "frame_number": 19
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "d6d31c43-12b7-46bb-a5c6-5ef9f0149730",
+    "timestamp": "2026-09-06T20:24:52.769805+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1001",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1001_wrong_orientation_61.webm",
+      "frame_number": 61
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "cf727fa0-c7a5-4f86-8575-cdb35bf21feb",
+    "timestamp": "2026-09-06T20:24:53.699335+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1009",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1009_wrong_orientation_66.webm",
+      "frame_number": 66
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "2ed0b9d6-37fc-4744-b5df-e1a74680f42b",
+    "timestamp": "2026-09-06T20:24:53.894623+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1013",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.188,
+      "impact_velocity_mps": 1.921,
+      "impact_energy_j": 9.221,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1013_dropped_67.webm",
+      "frame_number": 67
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "5907155e-4fa7-4ebc-9972-b50f445044ea",
+    "timestamp": "2026-09-06T20:24:53.894708+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1014",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1014_over_stacked_67.webm",
+      "frame_number": 67
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "a069ad82-4ea3-4021-b8be-0b95fc189b9f",
+    "timestamp": "2026-09-06T20:24:56.004895+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1003",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1003_over_stacked_78.webm",
+      "frame_number": 78
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "63b0f789-4e21-497e-8846-4fbe17c8a30b",
+    "timestamp": "2026-09-06T20:24:56.004967+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1014",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1014_thrown_78.webm",
+      "frame_number": 78
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "c7d2b462-3961-4c5e-a050-ce9918125319",
+    "timestamp": "2026-09-06T20:24:57.448669+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1009",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.11,
+      "impact_velocity_mps": 1.469,
+      "impact_energy_j": 5.396,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1009_dropped_85.webm",
+      "frame_number": 85
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "a66be0c4-e505-4c87-9177-c80040a33d59",
+    "timestamp": "2026-09-06T20:25:05.451054+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1008",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1008_thrown_92.webm",
+      "frame_number": 92
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "7f1cd09a-cb58-4623-9e5d-c0a4f0e82c18",
+    "timestamp": "2026-09-06T20:25:27.071462+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1013",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1013_wrong_orientation_101.webm",
+      "frame_number": 101
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "a2973add-14f8-4262-8d51-f173a3ed1273",
+    "timestamp": "2026-09-06T20:25:27.071537+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1013",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "stepped_on",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1013_stepped_on_101.webm",
+      "frame_number": 101
+    },
+    "risk_level": "high",
+    "confidence": 0.8,
+    "requires_human_review": true,
+    "_reason": "person stepped on package"
+  },
+  {
+    "event_id": "8d26a84a-292b-47b3-a38a-f45cd9693614",
+    "timestamp": "2026-09-06T20:26:28.079824+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1038",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.086,
+      "impact_velocity_mps": 1.299,
+      "impact_energy_j": 4.218,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1038_dropped_221.webm",
+      "frame_number": 221
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "4e503eb7-5ed3-480f-be7a-0e7f3ca695f7",
+    "timestamp": "2026-09-06T20:26:29.745605+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1042",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.182,
+      "impact_velocity_mps": 1.89,
+      "impact_energy_j": 8.927,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1042_dropped_230.webm",
+      "frame_number": 230
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "5da5dce3-ce8e-4b5b-b1c3-9c7fb3a1c619",
+    "timestamp": "2026-09-06T20:26:53.476610+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1048",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.274,
+      "impact_velocity_mps": 2.319,
+      "impact_energy_j": 13.44,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1048_dropped_284.webm",
+      "frame_number": 284
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "3064150a-df24-4c56-840f-d2f0239c6974",
+    "timestamp": "2026-09-06T20:27:07.142171+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1048",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1048_dragged_322.webm",
+      "frame_number": 322
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "938dc804-3562-4809-bde1-4c57fe39d62f",
+    "timestamp": "2026-09-06T20:27:07.886011+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1048",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1048_thrown_326.webm",
+      "frame_number": 326
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "3243a12b-5653-40bb-804d-558d76d7d99f",
+    "timestamp": "2026-09-06T20:27:34.000779+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1057",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1057_wrong_orientation_398.webm",
+      "frame_number": 398
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "b1eaed4a-7c16-472a-8059-f65b472465c7",
+    "timestamp": "2026-09-06T20:27:48.351882+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1068",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.07,
+      "impact_velocity_mps": 1.172,
+      "impact_energy_j": 3.434,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1068_dropped_441.webm",
+      "frame_number": 441
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "f6ce29f9-392b-4ed5-98ef-e13e11e7195c",
+    "timestamp": "2026-09-06T20:27:50.232019+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1064",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1064_thrown_451.webm",
+      "frame_number": 451
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "5beac676-0b5f-4a50-b7a1-25a4b3ba01f7",
+    "timestamp": "2026-09-06T20:27:51.895273+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1066",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.16,
+      "impact_velocity_mps": 1.772,
+      "impact_energy_j": 7.848,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1066_dropped_460.webm",
+      "frame_number": 460
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "699e5ee9-a33a-431b-955c-5fe7ffcbf085",
+    "timestamp": "2026-09-06T20:27:52.321592+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1072",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.09,
+      "impact_velocity_mps": 1.329,
+      "impact_energy_j": 4.414,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1072_dropped_462.webm",
+      "frame_number": 462
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "4c04e472-e969-44bf-92be-6ba864edd65e",
+    "timestamp": "2026-09-06T20:27:52.926382+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1068",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1068_wrong_orientation_465.webm",
+      "frame_number": 465
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "d4c6429e-7d28-4d89-8ffa-fb4f191a84c8",
+    "timestamp": "2026-09-06T20:27:53.320840+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1068",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1068_over_stacked_467.webm",
+      "frame_number": 467
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "4a626a3a-e39c-4cf2-bd0d-3bf0b4e6cd76",
+    "timestamp": "2026-09-06T20:27:53.900597+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1077",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.062,
+      "impact_velocity_mps": 1.103,
+      "impact_energy_j": 3.041,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1077_thrown_470.webm",
+      "frame_number": 470
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "f1b1a225-9f9d-408e-983b-c4ce41a052d8",
+    "timestamp": "2026-09-06T20:28:02.414687+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1068",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1068_thrown_476.webm",
+      "frame_number": 476
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "0f0ba341-53c3-4813-b56a-1067ba10f6d4",
+    "timestamp": "2026-09-06T20:29:00.606783+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1085",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "wrong_orientation",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1085_wrong_orientation_523.webm",
+      "frame_number": 523
+    },
+    "risk_level": "low",
+    "confidence": 0.6,
+    "requires_human_review": false,
+    "_reason": "orientation change on item with no orientation requirement"
+  },
+  {
+    "event_id": "a2a9340c-6358-4ced-a9f9-3e5e54d1d7ca",
+    "timestamp": "2026-09-06T20:29:03.745628+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1085",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.05,
+      "impact_velocity_mps": 0.99,
+      "impact_energy_j": 2.453,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1085_dropped_541.webm",
+      "frame_number": 541
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "1e4956c9-ec0a-478a-aec3-e6507f138bae",
+    "timestamp": "2026-09-06T20:29:03.936077+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1066",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.064,
+      "impact_velocity_mps": 1.121,
+      "impact_energy_j": 3.139,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1066_thrown_542.webm",
+      "frame_number": 542
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "0d6e76e8-5323-4197-b9db-9705e09f2496",
+    "timestamp": "2026-09-06T20:29:15.272134+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1084",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1084_thrown_571.webm",
+      "frame_number": 571
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "9951821d-38bb-4a10-ab07-68b5a2947261",
+    "timestamp": "2026-09-06T20:29:28.095246+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1084",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.12,
+      "impact_velocity_mps": 1.534,
+      "impact_energy_j": 5.886,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1084_dropped_573.webm",
+      "frame_number": 573
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "c302efae-ff20-4a7f-b0c2-3b201345f17b",
+    "timestamp": "2026-09-06T20:29:32.937476+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1094",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.138,
+      "impact_velocity_mps": 1.645,
+      "impact_energy_j": 6.769,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1094_dropped_601.webm",
+      "frame_number": 601
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "5ef04e20-7b5e-4a6d-9960-db4b958daa55",
+    "timestamp": "2026-09-06T20:29:48.946884+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1099",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.166,
+      "impact_velocity_mps": 1.805,
+      "impact_energy_j": 8.142,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1099_dropped_623.webm",
+      "frame_number": 623
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "5de832ce-3c83-4186-b8a3-7b5b06e12729",
+    "timestamp": "2026-09-06T20:29:59.887872+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1099",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.224,
+      "impact_velocity_mps": 2.096,
+      "impact_energy_j": 10.987,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1099_thrown_649.webm",
+      "frame_number": 649
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "b26114bc-d4e3-4c16-923f-788369ddc213",
+    "timestamp": "2026-09-06T20:30:00.198610+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1106",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.098,
+      "impact_velocity_mps": 1.387,
+      "impact_energy_j": 4.807,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1106_dropped_651.webm",
+      "frame_number": 651
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "658ac4c9-17e3-4e73-bb18-d220b2bfd98f",
+    "timestamp": "2026-09-06T20:30:25.654533+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1111",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.114,
+      "impact_velocity_mps": 1.496,
+      "impact_energy_j": 5.592,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1111_thrown_689.webm",
+      "frame_number": 689
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "03ac356c-4047-4389-b0b5-6c3e7a336e6c",
+    "timestamp": "2026-09-06T20:30:25.982752+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1111",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.084,
+      "impact_velocity_mps": 1.284,
+      "impact_energy_j": 4.12,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1111_dropped_691.webm",
+      "frame_number": 691
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "88449278-fcf6-4ce9-a21c-83364e9509d9",
+    "timestamp": "2026-09-06T20:30:29.403741+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1106",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1106_thrown_711.webm",
+      "frame_number": 711
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "8a193e28-edbd-4d5b-aeb5-19c3c35b917c",
+    "timestamp": "2026-09-06T20:30:45.861678+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1122",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.072,
+      "impact_velocity_mps": 1.189,
+      "impact_energy_j": 3.532,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1122_dropped_733.webm",
+      "frame_number": 733
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "2267a5eb-f196-4a40-a5b9-c5bda8d1a316",
+    "timestamp": "2026-09-06T20:30:54.812215+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1129",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1129_over_stacked_750.webm",
+      "frame_number": 750
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "81ac9a2d-371e-4542-b9fa-c99cfe52788e",
+    "timestamp": "2026-09-06T20:30:56.762167+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1131",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1131_thrown_761.webm",
+      "frame_number": 761
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "ffaca176-c735-4f90-945f-faf3e514fb18",
+    "timestamp": "2026-09-06T20:31:13.068237+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1125",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.1,
+      "impact_velocity_mps": 1.401,
+      "impact_energy_j": 4.905,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1125_dropped_785.webm",
+      "frame_number": 785
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "d48d2cda-4686-4488-969b-f88175d53c2d",
+    "timestamp": "2026-09-06T20:31:13.362293+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1137",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1137_over_stacked_787.webm",
+      "frame_number": 787
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "6a73b200-5b26-4377-b8c0-b27262f5ae09",
+    "timestamp": "2026-09-06T20:31:20.845176+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1137",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.064,
+      "impact_velocity_mps": 1.121,
+      "impact_energy_j": 3.139,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1137_dropped_794.webm",
+      "frame_number": 794
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "1c1e8619-c7e8-4ae4-a1c5-80aefdb983e8",
+    "timestamp": "2026-09-06T20:31:21.894708+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1139",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1139_over_stacked_799.webm",
+      "frame_number": 799
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "67c467f5-f43e-49a7-ba4b-01838bed36fb",
+    "timestamp": "2026-09-06T20:31:23.566114+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1137",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1137_dragged_808.webm",
+      "frame_number": 808
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  },
+  {
+    "event_id": "6443e622-a69d-43a5-850e-951f212aa76c",
+    "timestamp": "2026-09-06T20:31:32.276025+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1139",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.058,
+      "impact_velocity_mps": 1.067,
+      "impact_energy_j": 2.845,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1139_dropped_817.webm",
+      "frame_number": 817
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "b5e78eb3-0dbc-4005-8e36-c85670a39802",
+    "timestamp": "2026-09-06T20:31:56.122737+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1140",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.05,
+      "impact_velocity_mps": 0.99,
+      "impact_energy_j": 2.453,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1140_dropped_832.webm",
+      "frame_number": 832
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "25b7762b-2950-4810-bff5-9fdb23c51348",
+    "timestamp": "2026-09-06T20:32:36.786370+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1154",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.062,
+      "impact_velocity_mps": 1.103,
+      "impact_energy_j": 3.041,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1154_dropped_929.webm",
+      "frame_number": 929
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "220f7ff9-ea1d-4808-8ebc-a22a55f10e1d",
+    "timestamp": "2026-09-06T20:32:37.927088+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1154",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1154_over_stacked_935.webm",
+      "frame_number": 935
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  },
+  {
+    "event_id": "5f34e04d-88f9-4675-931f-0bfd11ccae49",
+    "timestamp": "2026-09-06T20:32:51.088124+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1159",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.168,
+      "impact_velocity_mps": 1.816,
+      "impact_energy_j": 8.24,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1159_thrown_961.webm",
+      "frame_number": 961
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "e188329f-8ffd-45ee-9916-3725ccbf776b",
+    "timestamp": "2026-09-06T20:33:04.145779+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\kd_packets_dragged_heavy_box_on_other_packets.mp4",
+    "bay": "bay-1",
+    "package_id": "1165",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "over_stacked",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\kd_packets_dragged_heavy_box_on_other_packets\\clips\\track1165_over_stacked_989.webm",
+      "frame_number": 989
+    },
+    "risk_level": "medium",
+    "confidence": 0.5,
+    "requires_human_review": false,
+    "_reason": "stacking detected, no printed stack limit found on item"
+  }
+]
