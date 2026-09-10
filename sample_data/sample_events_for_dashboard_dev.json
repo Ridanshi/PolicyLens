@@ -1,0 +1,44 @@
+[
+  {
+    "event_id": "sample-0001",
+    "timestamp": "2026-09-06T10:15:00+00:00",
+    "video_source": "sample_clip1.mp4",
+    "bay": "bay-1",
+    "package_id": "12",
+    "policy": {"fragile": true, "orientation": "upright", "max_stack": 2, "max_drop_height_m": 0.0, "keep_dry": false, "source": "label_extracted"},
+    "detected_behavior": "dropped",
+    "evidence": {"drop_height_m": 0.62, "impact_velocity_mps": 3.49, "impact_energy_j": 30.5, "clip_path": "clips/sample1.mp4", "frame_number": 340},
+    "risk_level": "critical",
+    "confidence": 0.85,
+    "requires_human_review": true,
+    "_reason": "fragile item dropped, policy allows zero drop"
+  },
+  {
+    "event_id": "sample-0002",
+    "timestamp": "2026-09-06T10:18:22+00:00",
+    "video_source": "sample_clip1.mp4",
+    "bay": "bay-1",
+    "package_id": "15",
+    "policy": {"fragile": false, "orientation": "any", "max_stack": 3, "max_drop_height_m": 0.3, "keep_dry": false, "source": "label_extracted"},
+    "detected_behavior": "over_stacked",
+    "evidence": {"drop_height_m": null, "impact_velocity_mps": null, "impact_energy_j": null, "clip_path": "clips/sample2.mp4", "frame_number": 812},
+    "risk_level": "high",
+    "confidence": 0.8,
+    "requires_human_review": true,
+    "_reason": "stack exceeds item's own printed limit of 3"
+  },
+  {
+    "event_id": "sample-0003",
+    "timestamp": "2026-09-06T10:22:05+00:00",
+    "video_source": "sample_clip1.mp4",
+    "bay": "bay-2",
+    "package_id": "19",
+    "policy": {"fragile": false, "orientation": "any", "max_stack": null, "max_drop_height_m": 0.3, "keep_dry": false, "source": "default_unknown"},
+    "detected_behavior": "dragged",
+    "evidence": {"drop_height_m": null, "impact_velocity_mps": null, "impact_energy_j": null, "clip_path": "clips/sample3.mp4", "frame_number": 1190},
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  }
+]

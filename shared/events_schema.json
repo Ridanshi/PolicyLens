@@ -1,0 +1,27 @@
+{
+  "$comment": "Contract between vision-pipeline (producer) and backend-assistant (consumer). Do not change field names without telling the other person.",
+  "event_id": "string, uuid4",
+  "timestamp": "string, ISO 8601",
+  "video_source": "string, filename of source clip",
+  "bay": "string, e.g. 'bay-1' (hardcode per demo video if only one bay)",
+  "package_id": "string, tracker id assigned to this carton for its whole lifetime in frame",
+  "policy": {
+    "fragile": "bool",
+    "orientation": "string, 'upright' | 'any'",
+    "max_stack": "int or null",
+    "max_drop_height_m": "float, 0 means must never be dropped",
+    "keep_dry": "bool",
+    "source": "string, 'label_extracted' | 'default_unknown' (true when no pictogram was detected/read)"
+  },
+  "detected_behavior": "string, one of: dropped | dragged | over_stacked | wrong_orientation | thrown | rough_handling | stepped_on | none",
+  "evidence": {
+    "drop_height_m": "float or null",
+    "impact_velocity_mps": "float or null",
+    "impact_energy_j": "float or null",
+    "clip_path": "string, path to the short evidence clip for this event",
+    "frame_number": "int"
+  },
+  "risk_level": "string, one of: low | medium | high | critical",
+  "confidence": "float 0-1",
+  "requires_human_review": "bool, true whenever risk_level is high or critical"
+}

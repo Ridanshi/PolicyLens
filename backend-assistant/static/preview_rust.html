@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Warehouse Field Intelligence — Forest & Rust</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink:#1e2a1f; --paper:#ffffff; --muted:#726b62; --line-soft:#e6e1d8;
+    --accent:#c1531f; --accent-dark:#8f3c15; --accent-text:#8f3c15;
+    --red:#c0261b; --red-text:#a3211a;
+    --pink:#f0b3a6; --pink-text:#7a2b18; --grey-fill:#e4e0d6;
+    --sans: 'IBM Plex Sans', -apple-system, sans-serif;
+    --cond: 'IBM Plex Sans Condensed', var(--sans);
+    --mono: 'IBM Plex Mono', 'Courier New', monospace;
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:var(--sans); background:var(--paper); color:var(--ink); -webkit-font-smoothing:antialiased; }
+
+  header { padding:20px 28px 16px; display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:14px; }
+  .hazard-strip { height:5px; background:repeating-linear-gradient(45deg, var(--ink) 0 10px, var(--accent) 10px 20px); }
+  header .title-row { display:flex; align-items:baseline; gap:12px; }
+  header h1 { font-family:var(--cond); font-size:30px; margin:0; font-weight:700; letter-spacing:0.2px; text-transform:uppercase; }
+  .live-tag { color:var(--accent); font-weight:700; font-size:11px; letter-spacing:1.5px; font-family:var(--cond); display:inline-flex; align-items:center; gap:6px; }
+  .live-dot { width:7px; height:7px; border-radius:50%; background:var(--accent); animation:pulse-dot 1.6s ease-in-out infinite; }
+  @keyframes pulse-dot { 0%,100%{opacity:1; transform:scale(1);} 50%{opacity:0.35; transform:scale(0.8);} }
+  .layout-divider { border:none; border-top:1px solid var(--ink); margin:0 0 16px; }
+
+  main { padding:0 20px 24px; display:flex; flex-direction:column; gap:18px; }
+  .card { background:var(--paper); border:1px solid var(--ink); border-radius:2px; padding:18px 20px; position:relative; }
+  .card::before, .card::after { content:''; position:absolute; width:9px; height:9px; border-color:var(--accent); opacity:0.7; }
+  .card::before { top:-1px; left:-1px; border-top:2px solid var(--accent); border-left:2px solid var(--accent); }
+  .card::after { bottom:-1px; right:-1px; border-bottom:2px solid var(--accent); border-right:2px solid var(--accent); }
+  .card h3 { font-family:var(--cond); font-size:15px; font-weight:700; margin:0 0 14px 0; text-transform:uppercase; letter-spacing:0.6px; }
+
+  .summary-row { display:flex; gap:8px; flex-wrap:wrap; }
+  .pill { font-family:var(--cond); padding:7px 14px; border-radius:2px; font-size:13px; font-weight:700; letter-spacing:0.3px; border:1px solid var(--line-soft); background:#fff; }
+  .pill b { font-family:var(--mono); font-size:15px; margin-left:5px; }
+  .pill.total { border-color:var(--accent); color:var(--accent-text); }
+  .pill.critical { background:var(--red); color:#fff; border-color:var(--red); }
+  .pill.high { background:var(--pink); color:var(--pink-text); border-color:var(--pink); }
+  .pill.medium { background:var(--grey-fill); color:#111; border-color:var(--grey-fill); }
+  .pill.low { background:#fff; color:#111; border-color:#ccc; }
+
+  .overview-row { display:grid; grid-template-columns: 1fr 1.4fr; gap:18px; }
+
+  .filter-row { display:flex; gap:8px; margin-bottom:14px; flex-wrap:wrap; align-items:center; }
+  select, input[type="text"], input[type="date"] {
+    font-family:var(--sans); background:#fff; color:var(--ink); border:1px solid var(--ink); padding:8px 11px; border-radius:2px; font-size:13px;
+  }
+  #search-input { min-width:220px; }
+  button {
+    font-family:var(--cond); padding:9px 16px; border-radius:2px; border:1px solid var(--ink); background:#fff; color:var(--ink);
+    cursor:pointer; font-weight:700; font-size:13px; letter-spacing:0.3px; transition:transform 0.08s ease, background 0.12s ease;
+  }
+  button:hover { background:#f4f1ea; }
+  button:active { transform:scale(0.97); }
+  button.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+  button.primary:hover { background:var(--accent-dark); }
+  #live-toggle-btn { margin-left:auto; }
+  #live-toggle-btn.live { color:var(--accent); border-color:var(--accent); }
+  button:disabled { opacity:0.5; cursor:not-allowed; transform:none; }
+
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  thead tr { border-bottom:2px solid var(--ink); }
+  th { font-family:var(--cond); text-align:left; padding:9px 8px; color:var(--muted); font-weight:700; font-size:11px; text-transform:uppercase; letter-spacing:0.8px; }
+  td { text-align:left; padding:11px 8px; border-bottom:1px solid var(--line-soft); vertical-align:top; }
+  td:first-child, td:nth-child(3) { font-family:var(--mono); font-size:12.5px; }
+  tbody tr { position:relative; border-left:3px solid transparent; transition:border-color 0.12s ease, background 0.12s ease; }
+  tbody tr:hover { border-left-color:var(--accent); background:#fbf9f5; }
+  .card > div > span#events-count { color:var(--muted); font-size:12px; font-family:var(--mono); }
+
+  .badge { display:inline-block; font-family:var(--cond); padding:3px 10px; border-radius:2px; font-size:11px; font-weight:700; letter-spacing:0.3px; border:1px solid var(--line-soft); text-transform:uppercase; }
+  .badge.low { background:#fff; color:#111; border-color:#ccc; }
+  .badge.medium { background:var(--grey-fill); color:#111; border-color:var(--grey-fill); }
+  .badge.high { background:var(--pink); color:var(--pink-text); border-color:var(--pink); }
+  .badge.critical { background:var(--red); color:#fff; border-color:var(--red); }
+
+  .status-badge { font-family:var(--cond); display:block; padding:4px 9px; border-radius:2px; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; border:1px solid var(--ink); background:#fff; color:#111; text-align:center; width:fit-content; }
+  .status-badge.potential_risk { border-color:var(--red); color:var(--red-text); animation:pulse-border 1.8s ease-in-out infinite; }
+  @keyframes pulse-border { 0%,100%{ box-shadow:0 0 0 0 rgba(192,38,27,0.25); } 50%{ box-shadow:0 0 0 4px rgba(192,38,27,0); } }
+  .status-badge.confirmed_damage { background:var(--red); border-color:var(--red); color:#fff; }
+  .confirm-btn { display:block; margin-top:6px; padding:5px 9px; font-size:11px; }
+  .confirm-btn:hover { background:var(--red); color:#fff; border-color:var(--red); }
+
+  .replay-link { background:none; border:none; color:var(--accent); font-family:var(--cond); font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; cursor:pointer; padding:2px; white-space:nowrap; }
+  .replay-link:hover { background:none; text-decoration:underline; }
+
+  .bar-row { display:flex; align-items:center; gap:10px; margin-bottom:11px; font-size:12px; }
+  .bar-label { font-family:var(--cond); width:48px; color:var(--ink); font-weight:700; flex-shrink:0; text-transform:uppercase; }
+  .bar-track { flex:1; background:#fff; border:1px solid var(--line-soft); border-radius:2px; height:17px; overflow:hidden; display:flex; }
+  .bar-seg { height:100%; transition:width 0.4s ease; }
+  .bar-seg.critical { background:var(--red); }
+  .bar-seg.high { background:var(--pink); }
+  .bar-seg.medium { background:var(--grey-fill); }
+  .bar-seg.low { background:#f5f2ea; }
+  .bar-total { font-family:var(--mono); width:28px; text-align:right; color:var(--muted); font-weight:600; }
+
+  #shift-summary { font-size:13px; line-height:1.6; color:var(--ink); background:#faf8f3; border:1px solid var(--line-soft); border-radius:2px; padding:12px; margin-top:10px; white-space:pre-wrap; }
+  .shift-summary-controls { display:flex; justify-content:space-between; align-items:center; }
+  .shift-summary-hint { font-size:11px; color:var(--muted); margin-top:6px; font-family:var(--mono); }
+
+  #chat-log { max-height:260px; overflow-y:auto; margin-bottom:10px; }
+  .msg { margin-bottom:8px; padding:9px 11px; border-radius:2px; font-size:13px; line-height:1.5; }
+  .msg.user { background:#f4f1ea; font-family:var(--cond); font-weight:600; }
+  .msg.bot { background:#fff; border:1px solid var(--line-soft); }
+  .msg.bot.thinking { color:var(--muted); font-style:italic; }
+  .quick-questions { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:10px; }
+  .quick-questions button { font-size:11px; padding:6px 10px; font-weight:600; }
+  #chat-input-row { display:flex; gap:8px; }
+  #chat-input { flex:1; padding:9px 11px; border-radius:2px; border:1px solid var(--ink); font-family:var(--sans); }
+
+  #replay-modal { display:none; position:fixed; inset:0; background:rgba(20,17,14,0.85); align-items:center; justify-content:center; z-index:50; }
+  #replay-modal.open { display:flex; }
+  #replay-modal .modal-box { background:#fff; padding:16px; border-radius:2px; max-width:90vw; border:1px solid var(--ink); }
+  #replay-modal video { max-width:80vw; max-height:70vh; display:block; background:#000; }
+  #replay-modal .modal-close { margin-top:10px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="title-row">
+    <h1>Warehouse Field Intelligence</h1>
+    <span class="live-tag"><span class="live-dot"></span>Live event log</span>
+  </div>
+  <div id="summary-pills" class="summary-row"></div>
+</header>
+<div class="hazard-strip"></div>
+<main>
+  <div class="overview-row">
+    <div class="card">
+      <h3>Risk by Bay</h3>
+      <div id="bay-chart"></div>
+    </div>
+    <div class="card">
+      <div class="shift-summary-controls">
+        <h3 style="margin:0;">Shift Summary</h3>
+        <button class="primary" onclick="loadShiftSummary()">Generate</button>
+      </div>
+      <div id="shift-summary">Pick a date (or leave blank for all data) and click Generate.</div>
+      <div class="shift-summary-hint">Blank date = all logged data.</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="filter-row">
+      <select id="filter-bay"><option value="">All bays</option></select>
+      <select id="filter-risk">
+        <option value="">All risk levels</option>
+        <option value="critical">Critical</option>
+        <option value="high">High</option>
+        <option value="medium">Medium</option>
+        <option value="low">Low</option>
+      </select>
+      <input type="text" id="search-input" placeholder="Search package or reason..." oninput="renderEvents()" />
+      <input type="date" id="filter-date" onchange="loadEvents()" />
+      <button id="clear-date-btn" onclick="clearDate()" style="display:none;">All dates</button>
+      <button onclick="loadEvents()">Refresh</button>
+      <button id="live-toggle-btn" class="live" onclick="toggleLive()">&#9724; Pause Live</button>
+      <span id="last-updated" style="font-size:11px; color:var(--muted); font-family:var(--mono); margin-left:4px;"></span>
+    </div>
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <h3 style="margin:0;">Event Feed</h3>
+      <span id="events-count"></span>
+    </div>
+    <table>
+      <thead><tr><th>Time</th><th>Bay</th><th>Package</th><th>Behavior</th><th>Risk</th><th>Status</th><th>Reason</th><th></th></tr></thead>
+      <tbody id="events-body"></tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>Ask the Assistant</h3>
+    <div id="chat-log"></div>
+    <div class="quick-questions">
+      <button onclick="askQuick('Which bay is riskiest right now?')">Which bay is riskiest right now?</button>
+      <button onclick="askQuick('What behavior is most common today?')">What's trending?</button>
+      <button onclick="askQuick('Which bay is safest?')">Which bay is safest?</button>
+    </div>
+    <div id="chat-input-row">
+      <input id="chat-input" placeholder="e.g. Which bay had the most critical events?" />
+      <button id="ask-btn" class="primary" onclick="sendChat()">Ask</button>
+    </div>
+  </div>
+</main>
+
+<div id="replay-modal" onclick="if(event.target===this) closeReplay()">
+  <div class="modal-box">
+    <video id="replay-video" controls autoplay></video>
+    <button class="modal-close" onclick="closeReplay()">Close</button>
+  </div>
+</div>
+
+<script>
+let liveTimer = null;
+let lastEvents = [];
+
+function currentDate() {
+  return document.getElementById('filter-date').value;
+}
+
+async function loadSummary() {
+  const date = currentDate();
+  const params = new URLSearchParams();
+  if (date) params.set('date', date);
+  const res = await fetch('/summary?' + params.toString());
+  const data = await res.json();
+  const pills = document.getElementById('summary-pills');
+  pills.innerHTML = `
+    <span class="pill total">Total<b>${data.total}</b></span>
+    <span class="pill critical">Critical<b>${data.by_risk.critical || 0}</b></span>
+    <span class="pill high">High<b>${data.by_risk.high || 0}</b></span>
+    <span class="pill medium">Medium<b>${data.by_risk.medium || 0}</b></span>
+    <span class="pill low">Low<b>${data.by_risk.low || 0}</b></span>
+  `;
+  const baySelect = document.getElementById('filter-bay');
+  const existing = new Set([...baySelect.options].map(o => o.value));
+  Object.keys(data.by_bay).forEach(bay => {
+    if (!existing.has(bay)) {
+      const opt = document.createElement('option');
+      opt.value = bay; opt.textContent = bay;
+      baySelect.appendChild(opt);
+    }
+  });
+}
+
+function clearDate() {
+  document.getElementById('filter-date').value = '';
+  loadEvents();
+}
+
+function statusLabel(status) {
+  return (status || 'observed_behaviour').replace('_', ' ');
+}
+
+async function confirmEvent(eventId) {
+  await fetch(`/events/${eventId}/confirm`, { method: 'POST' });
+  loadEvents();
+}
+
+function toggleLive() {
+  const btn = document.getElementById('live-toggle-btn');
+  if (liveTimer) {
+    clearInterval(liveTimer);
+    liveTimer = null;
+    btn.classList.remove('live');
+    btn.innerHTML = '&#9654; Resume Live';
+    document.getElementById('last-updated').textContent = 'Paused — feed frozen';
+  } else {
+    loadEvents();
+    liveTimer = setInterval(loadEvents, 5000);
+    btn.classList.add('live');
+    btn.innerHTML = '&#9724; Pause Live';
+  }
+}
+
+function renderEvents() {
+  const search = document.getElementById('search-input').value.trim().toLowerCase();
+  const filtered = search
+    ? lastEvents.filter(e =>
+        (e.package_id || '').toLowerCase().includes(search) ||
+        (e._reason || '').toLowerCase().includes(search))
+    : lastEvents;
+  const body = document.getElementById('events-body');
+  document.getElementById('events-count').textContent = `${filtered.length} shown`;
+  body.innerHTML = filtered.slice().reverse().map((e) => `
+    <tr>
+      <td>${new Date(e.timestamp).toLocaleTimeString()}</td>
+      <td><b>${e.bay}</b></td>
+      <td>#${e.package_id}</td>
+      <td>${e.detected_behavior}</td>
+      <td><span class="badge ${e.risk_level}">${e.risk_level}</span></td>
+      <td>
+        <span class="status-badge ${e.status}">${statusLabel(e.status)}</span>
+        ${e.status === 'potential_risk' ? `<button class="confirm-btn" onclick="confirmEvent('${e.event_id}')">Confirm damage</button>` : ''}
+      </td>
+      <td>${e._reason || ''}</td>
+      <td>${e.evidence && e.evidence.clip_url ? `<button class="replay-link" onclick="openReplay('${e.evidence.clip_url}')" title="Replay">&#9654; Replay</button>` : ''}</td>
+    </tr>
+  `).join('');
+}
+
+async function loadEvents() {
+  const bay = document.getElementById('filter-bay').value;
+  const risk = document.getElementById('filter-risk').value;
+  const date = currentDate();
+  document.getElementById('clear-date-btn').style.display = date ? 'inline-block' : 'none';
+  const params = new URLSearchParams();
+  if (bay) params.set('bay', bay);
+  if (risk) params.set('risk_level', risk);
+  if (date) params.set('date', date);
+  const res = await fetch('/events?' + params.toString());
+  lastEvents = await res.json();
+  renderEvents();
+  loadSummary();
+  loadBayChart();
+  document.getElementById('last-updated').textContent = 'Updated ' + new Date().toLocaleTimeString();
+}
+
+function openReplay(url) {
+  const modal = document.getElementById('replay-modal');
+  const video = document.getElementById('replay-video');
+  video.src = url;
+  modal.classList.add('open');
+}
+
+function closeReplay() {
+  const modal = document.getElementById('replay-modal');
+  const video = document.getElementById('replay-video');
+  video.pause();
+  video.src = '';
+  modal.classList.remove('open');
+}
+
+async function loadBayChart() {
+  const date = currentDate();
+  const params = new URLSearchParams();
+  if (date) params.set('date', date);
+  const res = await fetch('/summary?' + params.toString());
+  const data = await res.json();
+  const container = document.getElementById('bay-chart');
+  const bays = Object.keys(data.by_bay_risk || {});
+  if (bays.length === 0) {
+    container.innerHTML = '<div style="color:var(--muted); font-size:12px;">No events yet.</div>';
+    return;
+  }
+  const maxCount = Math.max(...bays.map(b => data.by_bay[b]), 1);
+  container.innerHTML = bays.map(bay => {
+    const riskCounts = data.by_bay_risk[bay];
+    const total = data.by_bay[bay];
+    const widthPct = (total / maxCount) * 100;
+    const segs = ['critical', 'high', 'medium', 'low'].map(level => {
+      const count = riskCounts[level] || 0;
+      if (count === 0) return '';
+      const segPct = (count / total) * 100;
+      return `<div class="bar-seg ${level}" style="width:${segPct}%" title="${level}: ${count}"></div>`;
+    }).join('');
+    return `
+      <div class="bar-row">
+        <div class="bar-label">${bay}</div>
+        <div class="bar-track" style="width:${widthPct}%">${segs}</div>
+        <div class="bar-total">${total}</div>
+      </div>`;
+  }).join('');
+}
+
+async function loadShiftSummary() {
+  const bay = document.getElementById('filter-bay').value;
+  const date = currentDate();
+  const box = document.getElementById('shift-summary');
+  box.textContent = 'Generating...';
+  const res = await fetch('/assistant/shift-summary', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ bay: bay || null, date: date || null })
+  });
+  const data = await res.json();
+  box.textContent = data.summary;
+}
+
+function addMsg(text, cls) {
+  const log = document.getElementById('chat-log');
+  const div = document.createElement('div');
+  div.className = 'msg ' + cls;
+  div.textContent = text;
+  log.appendChild(div);
+  log.scrollTop = log.scrollHeight;
+  return div;
+}
+
+async function sendChat() {
+  const input = document.getElementById('chat-input');
+  const askBtn = document.getElementById('ask-btn');
+  const question = input.value.trim();
+  if (!question || askBtn.disabled) return;
+  addMsg(question, 'user');
+  input.value = '';
+  askBtn.disabled = true;
+  const thinking = addMsg('Thinking...', 'bot thinking');
+  const date = currentDate();
+  try {
+    const res = await fetch('/assistant/ask', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ question, date: date || null })
+    });
+    const data = await res.json();
+    thinking.textContent = data.answer;
+    thinking.classList.remove('thinking');
+  } catch (e) {
+    thinking.textContent = 'Request failed — is the backend running? (' + e.message + ')';
+    thinking.classList.remove('thinking');
+  } finally {
+    askBtn.disabled = false;
+  }
+}
+
+function askQuick(question) {
+  document.getElementById('chat-input').value = question;
+  sendChat();
+}
+
+document.getElementById('chat-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') sendChat();
+});
+
+addMsg("Hi — ask me about bay risk, behavior trends, or today's activity. I only answer from the events actually detected.", 'bot');
+loadEvents();
+liveTimer = setInterval(loadEvents, 5000);
+</script>
+</body>
+</html>

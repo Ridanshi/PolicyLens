@@ -1,0 +1,29 @@
+[
+  {
+    "event_id": "1f5dba42-c519-41e1-a2a9-072b513b8dba",
+    "timestamp": "2026-09-06T16:29:59.771256+00:00",
+    "video_source": "../sample_data/synthetic_drop.mp4",
+    "bay": "bay-test",
+    "package_id": "1000",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.064,
+      "impact_velocity_mps": 1.121,
+      "impact_energy_j": 3.139,
+      "clip_path": "output\\clips\\track1000_dropped_61.mp4",
+      "frame_number": 61
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  }
+]

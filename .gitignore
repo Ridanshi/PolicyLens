@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+.env
+node_modules/
+*.log
+
+# Exceeds GitHub's 100MB file limit; .mp4 equivalents are tracked
+vision-pipeline/output_real/stepping_on_cartons_vertical_product_horizontal_heavy_on_top/annotated_output.webm
+vision-pipeline/output_real/throwing_mattresses/annotated_output.webm
