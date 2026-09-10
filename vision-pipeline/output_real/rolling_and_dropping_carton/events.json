@@ -1,0 +1,110 @@
+[
+  {
+    "event_id": "2ef2bafd-9699-471a-a626-44ba866b78e3",
+    "timestamp": "2026-09-06T20:11:20.925713+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\rolling_and_dropping_carton.mp4",
+    "bay": "bay-1",
+    "package_id": "1004",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.174,
+      "impact_velocity_mps": 1.848,
+      "impact_energy_j": 8.535,
+      "clip_path": "output_real\\rolling_and_dropping_carton\\clips\\track1004_dropped_59.webm",
+      "frame_number": 59
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "6ba984ef-2f9b-40ef-a02e-70d53b5a4aa1",
+    "timestamp": "2026-09-06T20:11:22.434081+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\rolling_and_dropping_carton.mp4",
+    "bay": "bay-1",
+    "package_id": "1018",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dropped",
+    "evidence": {
+      "drop_height_m": 0.074,
+      "impact_velocity_mps": 1.205,
+      "impact_energy_j": 3.63,
+      "clip_path": "output_real\\rolling_and_dropping_carton\\clips\\track1018_dropped_66.webm",
+      "frame_number": 66
+    },
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "requires_human_review": false,
+    "_reason": "drop detected within item's non-fragile tolerance, still logged"
+  },
+  {
+    "event_id": "3b7695f6-dea8-41c4-92c1-26184815e812",
+    "timestamp": "2026-09-06T20:12:15.841951+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\rolling_and_dropping_carton.mp4",
+    "bay": "bay-1",
+    "package_id": "1038",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "thrown",
+    "evidence": {
+      "drop_height_m": 0.128,
+      "impact_velocity_mps": 1.585,
+      "impact_energy_j": 6.278,
+      "clip_path": "output_real\\rolling_and_dropping_carton\\clips\\track1038_thrown_212.webm",
+      "frame_number": 212
+    },
+    "risk_level": "critical",
+    "confidence": 0.7,
+    "requires_human_review": true,
+    "_reason": "throwing motion detected"
+  },
+  {
+    "event_id": "e42d7475-dc0b-4b68-ac8a-ca6ac496da8c",
+    "timestamp": "2026-09-06T20:12:21.943351+00:00",
+    "video_source": "..\\sample_data\\godrej_pilot\\rolling_and_dropping_carton.mp4",
+    "bay": "bay-1",
+    "package_id": "1038",
+    "policy": {
+      "fragile": false,
+      "orientation": "any",
+      "max_stack": null,
+      "max_drop_height_m": 0.3,
+      "keep_dry": false,
+      "source": "default_unknown"
+    },
+    "detected_behavior": "dragged",
+    "evidence": {
+      "drop_height_m": null,
+      "impact_velocity_mps": null,
+      "impact_energy_j": null,
+      "clip_path": "output_real\\rolling_and_dropping_carton\\clips\\track1038_dragged_240.webm",
+      "frame_number": 240
+    },
+    "risk_level": "medium",
+    "confidence": 0.75,
+    "requires_human_review": false,
+    "_reason": "item dragged instead of lifted/moved with equipment"
+  }
+]
